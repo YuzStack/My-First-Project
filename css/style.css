@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font: size: 1.25rem;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #087997;
+    text-align: center;
+    font-size: 4.5rem;
+    max-width: 1000px;
+    line-height: 1.0;
+    background-color:
+
+    @media (width > 720px) {
+        font-size: 7.5rem;
+    }
+}
+
+a {
+    color: rgb(136, 25, 192);
+}
+
+a:hover,
+a:focus-visible {
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    color: #CA721C;
+    font-size: 2rem;
+}
+section {
+    margin-block: 75px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.experience {
+    background-color: #087997;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border: #0C4A5B solid 3px;
+}
+
+.disc {
+    color: #484D56;
+}
+
+.blue-h2 {
+    color: #087997;
+}
+
+div {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.know-before {
+    background-image: url(../images/simple-steps.jpg);
+    color: #fff;
+    padding: 30px;
+    border: #0C4A5B solid 3px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.two-column {
+    display: grid;
+    gap: 4rem;
+
+    @media (width > 720px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.extra-margin {
+    margin-block: 40px;
+}
+
+.primary-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.primary-navigation a {
+    text-decoration: none;
+    color: #484D56;
+    font-weight: bold;
+}
+
+.primary-navigation a:hover,
+a:focus-visible {
+    color: rgb(136, 25, 192);
+}
